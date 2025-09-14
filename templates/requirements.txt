@@ -1,0 +1,35 @@
+# Django PDF Tools Requirements
+
+# Core Framework
+Django>=4.2.0,<5.0.0
+
+# PDF Processing Libraries
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0
+fitz>=0.0.1.dev2
+
+# Image Processing
+Pillow>=10.0.0
+
+# PDF Generation and Manipulation
+reportlab>=4.0.0
+
+# Additional Utilities
+python-dateutil>=2.8.0
+six>=1.16.0
+
+# Development Dependencies (Optional)
+# Uncomment for development
+# django-debug-toolbar>=4.0.0
+# black>=23.0.0
+# flake8>=6.0.0
+# pytest>=7.0.0
+# pytest-django>=4.5.0
+
+# Production Dependencies (Optional)
+# Uncomment for production deployment
+# gunicorn>=21.0.0
+# whitenoise>=6.5.0
+# psycopg2-binary>=2.9.0  # For PostgreSQL
+# redis>=4.6.0  # For caching
+# celery>=5.3.0  # For background tasks

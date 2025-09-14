@@ -1,0 +1,66 @@
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 54272
+Forbidden (CSRF cookie not set.): /extract-text/
+"POST /extract-text/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /convert-to-images/
+"POST /convert-to-images/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /rotate-pages/
+"POST /rotate-pages/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /add-watermark/
+"POST /add-watermark/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /add-watermark/
+"POST /add-watermark/ HTTP/1.1" 403 2855
+Forbidden (CSRF cookie not set.): /add-watermark/
+"POST /add-watermark/ HTTP/1.1" 403 2855
+"GET / HTTP/1.1" 200 29903
+"GET / HTTP/1.1" 200 29903
+"GET / HTTP/1.1" 200 54503
+"POST /view-metadata/ HTTP/1.1" 200 407
+"POST /extract-text/ HTTP/1.1" 200 17807
+"POST /convert-to-images/ HTTP/1.1" 200 5294871
+"POST /download-file/ HTTP/1.1" 200 3289027
+"POST /view-metadata/ HTTP/1.1" 200 407
+"POST /rotate-pages/ HTTP/1.1" 200 2097994
+Internal Server Error: /add-watermark/
+"POST /add-watermark/ HTTP/1.1" 500 87
+"POST /compress-pdf/ HTTP/1.1" 200 1083273
+"POST /extract-text/ HTTP/1.1" 200 17807
+"GET / HTTP/1.1" 200 74138
+Watching for file changes with StatReloader
+/home/user/pdftools/pdftools/urls.py changed, reloading.
+Watching for file changes with StatReloader
