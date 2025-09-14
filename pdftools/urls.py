@@ -14,6 +14,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.views.decorators.csrf import csrf_exempt
 
 from django.contrib import admin
 from django.urls import path, include
@@ -30,15 +31,15 @@ urlpatterns = [
     path('', views.index, name='index'),
     
     # Core PDF Operations
-    path('extract-text/', views.extract_text, name='extract_text'),
-    path('split-pdf/', views.split_pdf, name='split_pdf'),
-    path('merge-pdfs/', views.merge_pdfs, name='merge_pdfs'),
-    path('compress-pdf/', views.compress_pdf, name='compress_pdf'),
-    path('add-watermark/', views.add_watermark, name='add_watermark'),
-    path('rotate-pages/', views.rotate_pages, name='rotate_pages'),
-    path('view-metadata/', views.view_metadata, name='view_metadata'),
-    path('convert-to-images/', views.convert_to_images, name='convert_to_images'),
-    
+    path('extract-text/', csrf_exempt(views.extract_text), name='extract_text'),
+    path('split-pdf/', csrf_exempt(views.split_pdf), name='split_pdf'),
+    path('merge-pdfs/', csrf_exempt(views.merge_pdfs), name='merge_pdfs'),
+    path('compress-pdf/', csrf_exempt(views.compress_pdf), name='compress_pdf'),
+    path('add-watermark/', csrf_exempt(views.add_watermark), name='add_watermark'),
+    path('rotate-pages/', csrf_exempt(views.rotate_pages), name='rotate_pages'),
+    path('view-metadata/', csrf_exempt(views.view_metadata), name='view_metadata'),
+    path('convert-to-images/', csrf_exempt(views.convert_to_images), name='convert_to_images'),
+
     # Utility endpoints
     path('download-file/', views.download_file, name='download_file'),
     path('pdf-info/', views.pdf_info, name='pdf_info'),
