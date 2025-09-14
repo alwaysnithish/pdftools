@@ -314,7 +314,7 @@ def add_watermark(request):
             c.translate(x, y)
             if position == 'center':
                 c.rotate(45)  # Diagonal for center
-            c.drawCentredText(0, 0, watermark_text)
+            c.drawCentredString(0, 0, watermark_text)
             c.restoreState()
             c.save()
             
