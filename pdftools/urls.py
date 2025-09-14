@@ -41,7 +41,7 @@ urlpatterns = [
     path('convert-to-images/', csrf_exempt(views.convert_to_images), name='convert_to_images'),
 
     # Utility endpoints
-    path('download-file/', views.download_file, name='download_file'),
+    path('download-file/', csrf_exempt(views.download_file), name='download_file'),
     path('pdf-info/', views.pdf_info, name='pdf_info'),
 ]
  #media files during development
